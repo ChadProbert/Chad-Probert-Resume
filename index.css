@@ -1,0 +1,67 @@
+/*used a google font*/
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	color: #f5f6f7;
+}
+
+/*added double-border effect*/
+img {
+	padding: 7px;
+	border: 2.5px solid #474e5d;
+	background-color: #f5f6f7;
+}
+/*increases size of image when hovered over*/
+Img:hover {
+	transform: scale(1.05);
+}
+
+/*gave spacing between icons for neatness*/
+.fab {
+	padding: 20px;
+}
+
+/*increase size of icons when hovered over*/
+.fab:hover {
+	transform: scale(1.05);
+}
+
+/*overides the font set by the icons*/
+span {
+	font: 15px Montserrat, sans-serif;
+}
+
+p {
+	font-size: 18px;
+}
+
+.margin {
+	margin-bottom: 45px;
+}
+
+.bg-1 {
+	background-color: #474e5d;
+	color: #ffffff;
+}
+
+.bg-2 {
+	background-color: #ffffff;
+	color: #555555;
+}
+
+.bg-3 {
+	background-color: #474e5d;
+	color: #f5f6f7;
+}
+/*spacing between top and bottom of the containers for neatness*/
+.container-fluid {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+/*removed bullet points and corrected alignment*/
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
